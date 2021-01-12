@@ -21,7 +21,7 @@ def guardado(datosLimpios):
     res=frame.append(frame2,sort=False)
     
     #guardamos
-    res.to_csv('auxx.csv', header=True, index=False)
+    res.to_csv('BaseDatos.csv', header=True, index=False)
     
 def limpieza( datos):
     #limpieza de datos
